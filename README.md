@@ -22,9 +22,9 @@ The script will also output 5 fake patients: patient_1.csv, patient_2.csv, patie
 
 Script test_fake_data.py
 
-Train a model (xgboost classifier, default parameters) for prediciting mortality (on 80% of the training set) and output the accuracy of the validation set (20% of the training set) and the accuracy of the test set.
+Train a model (xgboost classifier, default parameters) for predicting mortality (on 80% of the training set) and output the accuracy of the validation set (20% of the training set) and the accuracy of the test set.
 
-The script will also output 5 fake patients: patient_1.csv, patient_2.csv, patient_3.csv, patient_4.csv and patient_5.csv. 
+The script will also output the probability of death for a specified patient
 
 Usage: python test_fake_data.py training_set.csv test_set.csv patient_1.csv
 
