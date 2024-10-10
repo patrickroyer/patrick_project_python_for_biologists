@@ -6,7 +6,7 @@ Script create_fake_data.py
 
 Create a fake training data set including 100 fake proteins with their plasma values and the mortality outcome (1 csv file)
 
-Create a fake testing data set including the same 100 fake proteins with their plasma values and the mortality outcome (1 csv file)
+# Create a fake testing data set including the same 100 fake proteins with their plasma values and the mortality outcome (1 csv file)
 
 Create 5 fake patients including the same 100 fake proteins with their plasma values and the mortality outcome (5 csv files)
 
