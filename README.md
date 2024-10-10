@@ -4,13 +4,14 @@ patrick_project_python_for_biologists
 
 ## Script create_fake_data.py
 
-    Create a fake training data set including 100 fake proteins with their plasma values and the mortality outcome (1 csv file)
+Create a fake training data set including 100 fake proteins with their plasma values and the mortality outcome (1 csv file)
 
 Create a fake testing data set including the same 100 fake proteins with their plasma values and the mortality outcome (1 csv file)
 
 Create 5 fake patients including the same 100 fake proteins with their plasma values and the mortality outcome (5 csv files)
 
-Usage: python create_fake_data.py training_set test_set number_of_samples
+### Usage: 
+    python create_fake_data.py training_set test_set number_of_samples
 
 training_set = name of the created csv training file, output training_set.csv
 
@@ -26,8 +27,10 @@ Train a model (xgboost classifier, default parameters) for predicting mortality 
 
 The script will also output the probability of death for a specified patient
 
-Usage: python test_fake_data.py training_set.csv test_set.csv patient_1.csv
+### Usage: 
+    python test_fake_data.py training_set.csv test_set.csv patient_1.csv
 
 
-Create the environment locally from the environment.yml file via: conda env create -f environment.yml
+### Create the environment locally from the environment.yml file 
+    conda env create -f environment.yml
 
